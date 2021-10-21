@@ -1,0 +1,49 @@
+.redBtn {
+    width: 200px;
+    height: 50px;
+    background: #FF3232;
+    border-radius: 5px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 100%; 
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+    padding: 0 35px;
+    margin-bottom: 50px;
+}
+
+.none{
+    text-decoration: none;
+}
+
+@media (max-width:768px) {
+
+    .redBtn{
+        width: 150px;
+        padding: 0 20px;
+    }
+    
+}
+
+
+@media (max-width:500px) {
+    .redBtn{
+        width: 130px;
+        font-size: 14px;
+        padding: 0 10px;
+    }
+}
+
+
+@media (max-width:370px) {
+    .redBtn{
+        width: 100px;
+        
+    }
+}
