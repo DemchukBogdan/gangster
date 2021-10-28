@@ -1,0 +1,39 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.bg {
+    width: 100%;
+    height: auto;
+    background: #1E1E1D;
+    background-image: url(../../image/bg-2\ 4.png);
+    background-repeat: repeat-y;
+    background-position: center center;
+}
+
+.way {
+    display: flex;
+    padding-top: 50px;
+}
+
+.wayItem {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 170%;
+    display: flex;
+    align-items: center;
+    color: #BDBDBD;
+    margin-right: 10px;
+}
+
+.arrowRight {
+    margin-top: 10px;
+    width: 6px;
+    height: 6px;
+    margin-right: 10px;
+}
+

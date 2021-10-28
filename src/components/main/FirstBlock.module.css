@@ -1,0 +1,222 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* left */
+
+.left {
+    margin-top: 180px;
+}
+
+.blogBg {
+    background-color: #010101;
+    background-image: url(../../image/bg-main.png);
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.mainText {
+    margin-top: 50px;
+    margin-bottom: 40px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 170%;
+    display: flex;
+    align-items: center;
+    color: #BDBDBD;
+}
+
+.clock {
+    width: 186px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.btnPosition {
+    justify-content: center;
+}
+
+.btnCenter {
+    text-align: center;
+    justify-content: center;
+}
+
+/* right */
+
+.right {
+    margin-top: 200px;
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+}
+
+.mainPizza {
+    position: absolute;
+    width: 40vw;
+    /* height: 30vh; */
+    left: 50%;
+    top: 55%;
+    filter: drop-shadow(11px 23px 40px #000000);
+}
+
+.redClock {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 120%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+    color: #FF3232;
+}
+
+.deliveryText {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 120%;
+    /* identical to box height, or 30px */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 0px 0px 24px #000000;
+    width: 192px;
+}
+
+@media (max-width:1025px) {
+    .blogBg {
+        height: 90vh;
+    }
+    .pizzaTitle {
+        width: 80%;
+    }
+}
+
+@media (max-width:768px) {
+    .redClock {
+        font-size: 26px;
+    }
+    .deliveryText {
+        font-size: 22px;
+    }
+    .mainPizza {
+        width: 42vw;
+        height: 30vhpx;
+        left: 50%;
+        top: 50%;
+    }
+    .left {
+        margin-top: 170px;
+    }
+    .right {
+        margin-top: 170px;
+    }
+    .blogBg {
+        height: 90vh;
+    }
+}
+
+@media (max-width:600px) {
+    .mainText {
+        margin-top: 40px;
+        margin-bottom: 30px;
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+    }
+    .redClock {
+        font-size: 24px;
+    }
+    .deliveryText {
+        font-size: 20px;
+    }
+    .mainPizza {
+        width: 50vw;
+        height: 35vh;
+        left: 42%;
+        top: 45%;
+    }
+    .blogBg {
+        height: 80vh;
+    }
+
+    .mainPizza{
+        filter: none;
+    }
+}
+
+@media (max-width:500px) {
+    .mainPizza {
+        width: 50vw;
+        height: 30vh;
+        left: 45%;
+        top: 50%;
+    }
+    .mainText {
+        font-size: 13px;
+    }
+}
+
+@media (max-width:450px) {
+    .mainPizza {
+        width: 50vw;
+        height: 27vh;
+        left: 45%;
+        top: 50%;
+    }
+    .blogBg {
+        height: 75vh;
+    }
+}
+
+@media (max-width:400px) {
+    .mainPizza {
+        width: 50vw;
+        height: 25vh;
+        left: 45%;
+        top: 50%;
+    }
+    .redClock {
+        font-size: 22px;
+    }
+    .deliveryText {
+        font-size: 18px;
+    }
+}
+
+@media (max-width:370px) {
+    .mainPizza {
+        width: 53vw;
+        height: 23vh;
+        left: 42%;
+        top: 50%;
+    }
+    .blogBg {
+        height: 75vh;
+    }
+    .pizzaTitle {
+        width: 100%;
+    }
+
+    .deliveryText{
+        font-size: 16px;
+        padding-left: 20px;
+    }
+    .redClock{
+        padding-left: 20px;
+        font-size: 18px;
+        margin-top: 40px;
+    }
+}
